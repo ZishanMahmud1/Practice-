@@ -1,0 +1,10 @@
+CREATE DATABASE practice;
+USE practice; 
+
+CREATE TABLE appointment(
+    id INT AUTO_INCREMENT,
+    phone_number char(15),
+    name char(50),
+    appt_date char(30),
+    doctor_name char(50) 
+    );
